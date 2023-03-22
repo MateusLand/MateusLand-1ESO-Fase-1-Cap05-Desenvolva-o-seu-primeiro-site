@@ -1,0 +1,417 @@
+.wrapper {
+  display: block;
+  width: 980px;
+  height: 100vh;
+  padding-top: 3rem;
+  position: relative;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 50%;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  position: relative;
+  background-color: #1b8e99;
+}
+
+.top-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.top-logo img {
+  position: absolute;
+  margin-top: -10px;
+  left: 10px;
+  z-index: 2;
+}
+
+header .top-menu {
+  justify-content: flex-end;
+}
+
+/*First-Menu*/
+.first-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.first-menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+.first-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: normal;
+  width: 100px;
+}
+
+.first-menu li:hover {
+  background-color: #92c9ce;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+/*Main+Banner*/
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principal {
+  width: 100%;
+  height: fit-content;
+}
+
+.top-banner {
+  object-fit: contain;
+}
+
+.top-banner img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+/*Second-Menu*/
+.bottom-main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  position: relative;
+  background-color: #660000;
+}
+
+.second-menu ul li {
+  margin-right: 30px;
+}
+
+.second-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.second-menu ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+.second-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+  width: 100px;
+}
+
+.second-menu li:hover {
+  background-color: white;
+}
+
+.second-menu li:hover a {
+  color: #660000;
+}
+
+/*StoreTitle*/
+.store-title-container {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: center;
+  gap: 15px;
+  border-top: 1em solid transparent;
+}
+
+.store-title {
+  color: #660000;
+  font-weight: 700;
+}
+
+.store-title-container hr {
+  border: 1px solid #660000;
+  width: 830px;
+}
+
+/*Store-Products*/
+.products {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.product-container {
+  height: 404px;
+  width: 300px;
+  border: 1px solid #1b8e99;
+}
+
+.product {
+  height: 310px;
+}
+
+.product-title-container {
+  background-color: #e0eeef;
+  text-align: center;
+  padding: 1px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1b8e99;
+}
+
+.product-description-container {
+  margin: 0px 3px;
+}
+
+.product-description {
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1b8e99;
+}
+
+.product-price-container {
+  display: flex;
+  background-color: #1c8e99;
+  align-items: center;
+  place-content: space-around;
+  height: 94px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-price {
+  color: white;
+  font-size: 30px;
+}
+
+.price-description {
+  color: white;
+}
+
+.carrinho {
+  background-color: white;
+}
+
+/* Mesmo product porém vermelho */
+
+.product-container-2 {
+  height: 404px;
+  width: 300px;
+  border: 1px solid #660000;
+}
+
+.product-title-container-2 {
+  background-color: #eddadc;
+  text-align: center;
+  padding: 1px;
+}
+
+.product-title-2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #660000;
+}
+
+.product-description-2 {
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #660000;
+}
+
+.product-price-container-2 {
+  display: flex;
+  background-color: #660000;
+  align-items: center;
+  place-content: space-around;
+  height: 94px;
+}
+
+/*Services-Title*/
+.store-title-services {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: center;
+  gap: 15px;
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+}
+
+.services-title {
+  color: #1c8e99;
+  font-weight: 700;
+}
+
+.store-title-services hr {
+  border: 1px solid #1c8e99;
+  width: 830px;
+}
+
+/*Services*/
+.services {
+  display: flex;
+  gap: 10px;
+  border-top: em solid transparent;
+}
+
+.service-title {
+  font-family: Tahoma, sans-serif;
+  color: #660000;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.service-title-2 {
+  font-family: Tahoma, sans-serif;
+  color: #1b8e99;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.description-container {
+  margin: 0px 10px;
+}
+
+.services-container {
+  height: 376px;
+  width: 300px;
+  border: 1px solid #660000;
+  border-bottom: solid #660000 7px;
+}
+
+.services-container-2 {
+  height: 376px;
+  width: 300px;
+  border: 1px solid #1b8d99;
+  border-bottom: solid #1b8d99 7px;
+}
+
+.description {
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #660000;
+}
+
+.maintenance-description {
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1b8e99;
+}
+
+/*Footer*/
+footer {
+  width: 980px;
+  height: 96px;
+  padding-top: 8rem;
+  position: absolute;
+}
+.drones {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  gap: 10rem;
+  border-right: 7em solid transparent;
+}
+
+.first-footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  width: 950px;
+  height: 100%;
+  padding: 0 1rem;
+  gap: 4rem;
+  background-color: #1b8e99;
+}
+
+.first-footer .text {
+  text-align: left;
+  width: 60%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Tahoma, sans-serif;
+  color: #fff;
+}
+
+.second-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  width: 950px;
+  height: 26px;
+  padding: 0 1rem;
+  font-size: 14px;
+  font-family: Tahoma, sans-serif;
+  color: #fff;
+  background-color: #660000;
+}
+
+.professor {
+  float: right;
+  text-align: right;
+}
